@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juárez - Menú Mexicano</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!--Crea un navegador responsivo para multiples dispositivos-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+        <!--Crea un contenedor que se expande a lo ancho de la pantalla, segun el tamaño del dispositivo-->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/catrina.png" alt="Logo Juárez" height="50">
+            </a>
+            <!--Para dispositivos mas pequeños crea un menu/boton desplegable, es decir es una barra de navegacion responsiva-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Crea una lista de navegacion, contiene los elementos que se veran en la lista en otros dispositivos-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="menu.html">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.ubereats.com/cl?utm_source=AdWords_Brand&utm_campaign=CM2223845-search-google-brand_36_-99_CL-National_e_web_acq_cpc_es_T1_Generic_BM_uber%20eats_kwd-111378724137_638320575726_150823198304_b_c&campaign_id=19091117742&adg_id=150823198304&fi_id=&match=b&net=g&dev=c&dev_m=&ad_id=638320575726&cre=638320575726&kwid=kwd-111378724137&kw=uber%20eats&placement=&tar=.&gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQjwy46_BhDOARIsAIvmcwORqA9IJn8WeVcwKiiZwMhGwsxBohZKfJAoNrfGmXuwulnE7uTCuNkaAsK5EALw_wcB">Pide Aquí</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron jumbotron-fluid bg text-custom text-center py-5">
+        <div class="container">
+            <h1 class="text-black display-6">Menú</h1>
+            
+        </div>
+    </header>
+
+    <section class="container my-5">
+        <div class="row row-cols-7 row-cols-md-1 g-2">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/Enchiladas.jpg" class="card-img-top" alt="Enchiladas Suizas">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><a class="card-link" href="https://www.vvsupremo.com/recipe/enchiladas-rojas-suizas/">Entradas</a></h5>
+                        <p class="card-text">Enchiladas rellenas de pollo, bañadas en salsa de crema y queso gratinado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/plato1.jpg" class="card-img-top" alt="Papas, crema y pepino">
+                    <div class="card-body">
+                        <h5 class="card-title">Papas rancheras</h5>
+                        <p class="card-text">Aguacate fresco machacado con cebolla, tomate, cilantro y chile, acompañado de totopos crujientes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/margarita.jpg" class="card-img-top" alt="Margaritas Clásicas">
+                    <div class="card-body">
+                        <h5 class="card-title">Margaritas Clásicas</h5>
+                        <p class="card-text">Refrescantes margaritas preparadas con tequila, limón y triple sec.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/tacos.jpg" class="card-img-top" alt="Tacos">
+                    <div class="card-body">
+                        <h5 class="card-title">Tacos al Pastor</h5>
+                        <p class="card-text">Tacos de cerdo adobado, piña, cebolla y cilantro, servidos en tortillas de maíz.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/burritos.webp" class="card-img-top" alt="Burrito">
+                    <div class="card-body">
+                        <h5 class="card-title">Burrito Supremo</h5>
+                        <p class="card-text">Burrito relleno de carne, frijoles, arroz, queso, guacamole y crema agria.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/postre.jpg" class="card-img-top" alt="Churros">
+                    <div class="card-body">
+                        <h5 class="card-title">Churros con Chocolate</h5>
+                        <p class="card-text">Deliciosos churros crujientes acompañados de chocolate caliente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Juárez, Mexican Grill</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
